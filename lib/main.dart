@@ -54,6 +54,7 @@ class _HomePageState extends State<HomePage> {
         child: Center(
           child: Table(
             border: TableBorder.all(),
+            defaultColumnWidth: const FixedColumnWidth(120.0),
             children: [
             _tableRow,
             _tableRow,
