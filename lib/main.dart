@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.all(8.0),
         child: Center(
           child: Table(
-         
+            border: TableBorder.all(),
             children: [
             _tableRow,
             _tableRow,
